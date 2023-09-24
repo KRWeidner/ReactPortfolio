@@ -14,15 +14,6 @@ function NavTabs() {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
         >
-          Katy Weidner
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/AboutMe"
-          // Check to see if the currentPage is `AboutMe`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/AboutMe' ? 'nav-link active' : 'nav-link'}
-        >
           About Me
         </Link>
       </li>
