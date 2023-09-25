@@ -2,10 +2,11 @@ import '../styles/Header.css';
 
 export default function Home() {
     return (
-      <div>
-        <h1 className='headerTitle'>About Me</h1>
+      <div className='aboutMe'>
+        <h1 className='aboutMeTitle'>About Me</h1>
+        <img className = "image" src='src\assets\profile-pic.jpg' alt='Profile Pic'></img>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
           ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
           non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
