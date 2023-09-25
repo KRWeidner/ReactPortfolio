@@ -1,0 +1,28 @@
+/*  */
+
+.portfolioTitle {
+    display: flex;
+    color: #133257;
+    margin: 15px 0 15px 0;
+    justify-content: center
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.projectImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: all 0.5s ease-in-out;
+    box-sizing: content-box;
+    margin: 15px;
+}
+
+.projectImage:hover {
+    opacity: 0.6;
+}

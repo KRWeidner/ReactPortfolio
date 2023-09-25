@@ -1,10 +1,7 @@
+/* styles the header and about me section */
 .header {
     background-image: url("../assets//background-image.jpg");
     height: 200px;
-}
-
-.headerTitle {
-    color: #133257;
 }
 
 .header h1 {
@@ -14,4 +11,24 @@
     text-align: left;
     color: white;
     font-size: 3rem;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+}
+
+.aboutMeTitle {
+    color: #133257;
+    font-size: 40px;
+    padding: 5px 0 10px 0;
+}
+
+.image {
+    display: flex;
+    height: 300px;
+    padding-bottom: 20px;
+    border-radius: 30%;
 }
