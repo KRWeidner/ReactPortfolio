@@ -1,14 +1,17 @@
 .header {
-    background: cornflowerblue;
+    background-image: url("../assets//background-image.jpg");
     height: 200px;
-  }
-  
-  .header h1 {
+}
+
+.headerTitle {
+    color: #133257;
+}
+
+.header h1 {
     margin: 0;
     padding-top: 75px;
     padding-left: 25px;
     text-align: left;
     color: white;
     font-size: 3rem;
-  }
-  
+}
