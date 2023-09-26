@@ -32,3 +32,12 @@
     padding-bottom: 20px;
     border-radius: 30%;
 }
+
+.nav {
+    background-color: yellowgreen;
+    font-weight: 500;
+}
+
+.nav-link {
+    color: #133257;
+}
