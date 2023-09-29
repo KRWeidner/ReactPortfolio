@@ -1,4 +1,5 @@
 import '../styles/Resume.css';
+import downloadIcon from "../assets/downloadIcon.png";
 
 export default function Resume() {
     return (
@@ -8,7 +9,7 @@ export default function Resume() {
                 <h1>Resume</h1>
             
             <a href="src\assets\Resume.txt" download>
-                <img className='iconDownload' src="src\assets\downloadIcon.png" alt="Download Icon"></img>
+                <img className='iconDownload' src={downloadIcon} alt="Download Icon"></img>
             </a>
             </div> 
             <section className='resumeSection'>

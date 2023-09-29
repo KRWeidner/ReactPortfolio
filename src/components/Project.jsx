@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import '../styles/Project.css';
+import githubIcon from "../assets/github-mark-white.png";
+import webIcon from "../assets/webIcon.png";
 
 function Project(props) {
 
@@ -14,10 +16,10 @@ function Project(props) {
                         <h3 className='projectName'>{props.name}</h3>
                         <div className='hoverDivIcon'>
                             <a href={props.githubLink}>
-                                <img className='projectIcon' src="src/assets/github-mark-white.png" alt="Github Link"></img>
+                                <img className='projectIcon' src={githubIcon} alt="Github Link"></img>
                             </a>
                             <a href={props.deployedLink}>
-                                <img className='projectIcon' src="src/assets/webIcon.png" alt="Deployed Link"></img>
+                                <img className='projectIcon' src={webIcon} alt="Deployed Link"></img>
                             </a>
                         </div>
                     </div>
