@@ -1,10 +1,11 @@
 import '../styles/Header.css';
+import profilePic from "../assets/profile-pic.jpg";
 
 export default function Home() {
     return (
       <div className='aboutMe'>
         <h1 className='aboutMeTitle'>About Me</h1>
-        <img className = "image" src='src\assets\profile-pic.jpg' alt='Profile Pic'></img>
+        <img className = "image" src={profilePic} alt='Profile Pic'></img>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
           velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
