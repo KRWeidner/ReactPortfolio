@@ -8,7 +8,7 @@ function Project(props) {
     return (
         <section className="project">
             <div className='projectImageDiv' onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
-                <img className='projectImage' src={`src/assets/${props.imageFile}`} alt="Project Link"></img>
+                <img className='projectImage' src={props.imageFile} alt="Project Link"></img>
                 {isHover && (
                     <div className='hoverDiv'>
                         <h3 className='projectName'>{props.name}</h3>
