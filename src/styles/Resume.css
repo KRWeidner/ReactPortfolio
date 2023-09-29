@@ -1,0 +1,33 @@
+/* This page styles the resume page and elements */
+
+.resumeForm {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.resumeHeader {
+    display: flex;
+    color: #133257;
+    margin-left: 48em;
+    justify-content: space-between;
+
+}
+
+.iconDownload {
+    display: flex;
+    color: yellowgreen;
+    height: 40px;
+    width: 40px;
+}
+
+.iconDownload:hover {
+    filter: drop-shadow(0 0 0.5em #afd6f5);
+}
+
+.resumeSection {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 6rem;
+    color: #133257;
+}

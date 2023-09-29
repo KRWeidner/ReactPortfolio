@@ -1,8 +1,9 @@
-
+/* styles the contact page and contact form elements */
 .contactHeader {
     color: #133257;
     text-align: center;
     margin-bottom: -3.5rem;
+    margin-top: 15px;
 }
 
 .contactForm {
