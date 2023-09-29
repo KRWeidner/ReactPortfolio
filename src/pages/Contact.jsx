@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { validateEmail } from '../utils/helper';
 import '../styles/Contact.css';
 
 function Contact() {
@@ -29,15 +28,6 @@ function Contact() {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-
-        if (!validateEmail(email)) {
-            setErrorMessage('Email is invalid');
-            return;
-        }
-        if (!name || !email || !message) {
-            setErrorMessage("Field is required");
-            return;
-        }
 
         setName('');
         setMessage('')
