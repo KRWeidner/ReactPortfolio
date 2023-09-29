@@ -8,7 +8,7 @@ function Footer() {
         <a href="https://github.com/KRWeidner">
             <img className='icon' src={githubIcon} alt="GitHub Icon"></img>
         </a>
-        <a href="www.linkedin.com/in/katy-weidner-aa5200156">
+        <a href="https://www.linkedin.com/in/katy-weidner-aa5200156/">
             <img className='icon' src={linkedInIcon} alt="GitHub Icon"></img>
         </a>
         <a href="https://github.com/KRWeidner">
