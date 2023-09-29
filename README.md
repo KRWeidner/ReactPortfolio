@@ -8,3 +8,4 @@ The app is meant to showcase React skills. This is a single page app with multip
 
 ## URL Link
 https://jolly-scone-fbacea.netlify.app
+![image](https://github.com/KRWeidner/ReactPortfolio/assets/42842725/592010f1-252b-45c8-a4a1-0fb2106e9d06)
